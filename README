@@ -1,0 +1,3 @@
+Android App that displays two dice and a button.
+- pushing on each die will roll the die independantly
+- pushing the button will roll both dice

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+			android:id="@+id/main"
+			xmlns:android="http://schemas.android.com/apk/res/android"
+			android:baselineAligned="false"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+    <TableLayout 	android:layout_height="wrap_content"
+    				android:id="@+id/tableLayout1"
+    				android:layout_width="match_parent">
+		<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<ImageView	android:id="@+id/die1ImageView"
+    					android:src="@drawable/roll1"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:onClick="rollDie1" />
+    
+    		<ImageView 	android:id="@+id/die2ImageView"
+        				android:src="@drawable/roll1"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:onClick="rollDie2" />
+    	</TableRow>
+		<TableRow 		android:id="@+id/tableRow2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content">
+    			
+    		<Button 	android:text="Roll Both"
+    					android:id="@+id/dice_roll_button"
+    					android:layout_width="wrap_content"
+    					android:layout_height="wrap_content"
+    					android:onClick="rollDice" />
+    	</TableRow>
+   </TableLayout> 			
+</LinearLayout>
